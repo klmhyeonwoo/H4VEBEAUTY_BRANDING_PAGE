@@ -1,38 +1,26 @@
 
 <html>
   <head>
-  <title>h4vebeauty 00</title>
-<body>
-  <center>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <title>h4vebeauty 00</title>
+    <body>
+      <section class="mainContainer">
+        <!-- <%= image_tag "main_title.png", style: 'width:12.5vw;'  %> -->
+        <a href = "home/sub_page" >
+          <img src="/assets/sub_title.png" class="logo";>
+        </a>
+      </section>
+      <script>
+      const logo = document.querySelector(".logo");
+      setInterval(function() {
+        logo.style.opacity = "50%";
+        logo.style.transition = "all 1s";
+      }, 1000);
+      setInterval(function() {
+        logo.style.opacity = "100%";
+        logo.style.transition = "all 1s";
+      }, 2000);
+      </script>
 
-
-
-  <!-- <%= image_tag "main_title.png", style: 'width:12.5vw;'  %> -->
-
-    <a href = "home/sub_page" >
-      <img src="/assets/sub_title.png" width="160px";>
- </a>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  </center>
-  </body>
-    </head>
-
-
-
+    </body>
+  </head>
 </html>
