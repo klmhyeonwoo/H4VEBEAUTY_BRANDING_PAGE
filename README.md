@@ -1,24 +1,14 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##### Operating WebPage : https://www.h4vebeauty.com
 
-Things you may want to cover:
+##### How Start?
+- bundle install
+- bundle update
+- rails s
 
-* Ruby version
+##### version
+- ruby 2.5.1
+- heroku 18 stack
 
-* System dependencies
+https://user-images.githubusercontent.com/19422885/192144877-29421442-84e5-4ec7-b124-0aff7b999310.mov
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
